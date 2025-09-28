@@ -9,7 +9,9 @@
   --text-color: #353430;
   --sub-text-color: #353430;
   --accent-color: #ff8dcb;
+  --bg-color: #fff1f7;
   --btn-color:#353430;
+  --btn-hover: #35343066;
   --backgroung-image: url(../images/cover-image-light.png);
 }
 
@@ -23,11 +25,14 @@
     --text-color: #353430;
     --sub-text-color: #353430;
     --accent-color: #ff8dcb;
+    --bg-color: #fff1f7;
     --btn-color:#353430;
+    --btn-hover: #35343066;
     --backgroung-image: url(../images/cover-image-light.png);
   }
 
-  .theme-light .decorative__element {
+.decorative__element {
   display: none;
 }
+
 }  
