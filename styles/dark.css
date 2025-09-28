@@ -25,7 +25,6 @@
     gap: 10px;
     color: var(--btn-color);
     text-align: center;
-    padding-right: 8px;
     text-transform: uppercase;
     margin: 20px;
     padding-right: 11px;
@@ -72,7 +71,6 @@
     padding-right: 8px;
     text-transform: uppercase;
     margin: 20px;
-    padding-right: 11px;
 }
 
 .decorative__element::after {

@@ -156,7 +156,7 @@
   padding-block-end: 80px;
 }
 
-.question__section-answer-chskv-container{
+.question__section-answer-chskv-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
