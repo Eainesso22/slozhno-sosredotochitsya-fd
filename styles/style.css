@@ -167,6 +167,10 @@
   margin-block-end: 10px;
 }
 
+.question__section-title-chskv {
+    max-inline-size: 315px;
+  }
+
 .question__section-kkl {
   display: grid;
   grid-template-columns: 34% 66%;
