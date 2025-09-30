@@ -243,7 +243,6 @@
 
 .section__article-list {
   display: flex;
-
   justify-content: flex-start;
   margin-block-end: 80px;
   gap: 20px;
@@ -291,7 +290,7 @@
 }
 
 
-@media (width >= 375px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .main {
     padding: 0px 10px;
   }
@@ -430,7 +429,7 @@
   }
 }
 
-@media (width >= 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .header__theme-menu {
     justify-self: end;
     margin-block-start: 167px;
