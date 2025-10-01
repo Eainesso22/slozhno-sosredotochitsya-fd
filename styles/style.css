@@ -19,6 +19,8 @@
   display: grid;
   position: relative;
   grid-template-rows: 1fr min-content 1fr;
+  width: 100%;
+  margin-block-end: 60px;
 }
 
 .header__text {
@@ -132,7 +134,7 @@
   font-weight: 400;
   font-size: 18px;
   color: var(--text-color);
-  font-family: var(--font-family);
+  font-family: var(--font);
 }
 
 .article__list-item .section__article__title {
@@ -145,7 +147,7 @@
 }
 
 .section__article-text-link:hover {
-  border-bottom: 1px solid var(--border-bottom,);
+  border-bottom: 1px solid var(--text-color);
 }
 
 .section__article-text-link:focus {
